@@ -1,0 +1,204 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Lato' , 'Arial' ,'sans-serif';
+    font-size:20px;
+    text-rendering: optimizeLegibility;   
+  }
+
+/* ````````````````````````````````````````` */
+  /*`````````````````` Header ````````````````*/
+/* ```````````````````````````````````````````` */
+
+
+.top-section{
+    background-image: url('./Pictures/background\ 2\ \(2\).png');
+    background-size: cover;
+    background-position-y: top;
+    height: 100vh;
+    /* background-attachment: fixed; */
+
+}
+
+.nav-tools li{
+    display: inline;
+    padding:0.5rem;
+    text-decoration: none;
+    padding-top:2rem;
+    margin:0 auto;
+
+}
+.nav-tools ul{
+    display: block;
+   margin-bottom: 3rem;
+}
+
+.nav-tools{
+    padding-top:2rem;
+    margin-left:25%;
+}
+
+
+.nav-tools li  a:visited,
+.nav-tools li a:link{
+  text-decoration: none;
+  color: white;
+  margin-right: 1.5rem;
+  padding: 0.4rem 0;
+  text-transform: uppercase;
+font-size: 75%;
+border-bottom: 2px solid transparent;
+transition: border-bottom 0.2s;
+}
+
+.nav-tools li  a:hover,
+.nav-tools li a.active{
+  border-bottom: 2px solid #00ffa6;
+}
+/* ````````````````````````````````````````` */
+  /*``````````````````Headline````````````````*/
+/* ```````````````````````````````````````````` */
+
+.headline{
+display: inline-block;
+margin-left:24rem;
+font-weight: 100;
+padding-top:2rem;
+font-size:23px;
+border-bottom: 2px solid #00ffa6;
+text-transform: uppercase;
+color: #333;
+justify-content: center;
+}
+
+.headline h3{
+    font-weight: 400;
+}
+/* ````````````````````````````````````````` */
+  /*`````````````````` CATEGORIES````````````````*/
+/* ```````````````````````````````````````````` */
+
+.types li
+{
+display: inline;
+padding: 10px 20px;
+
+}
+
+.types {
+
+    margin-top:2rem;
+    margin-left:8%;
+    list-style:none;
+}
+
+.types li a {
+    font-weight:400;
+    color:#bbbbbb;
+    text-decoration: none;
+}
+
+.types li a:hover{
+color: teal;
+}
+
+
+/* ````````````````````````````````````````` */
+  /*``````````````````All-Books````````````````*/
+/* ```````````````````````````````````````````` */
+.books{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items:center;
+    margin-top: 3rem;
+}
+
+.book-item{
+    margin:20px 40px;
+}
+
+/* ````````````````````````````````````````` */
+  /*``````````````````Categories-Books````````````````*/
+/*`````````````````````````````````````````````````*/
+
+.genre-headline{
+    margin-top:2rem;
+    text-align: center;
+    color: black;
+    border: 2px dotted #bbbbbb;
+    text-transform: uppercase;
+    padding: 20px;
+}
+
+
+
+/* ````````````````````````````````````````` */
+  /*``````````````````Footer````````````````*/
+/*`````````````````````````````````````````````````*/
+
+
+.end{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 0rem;
+}
+
+footer{
+  border-top: 2px solid white;
+  background-color: #333;
+  font-size: 80%;
+  margin-top:2rem;
+  
+}
+
+.footer-nav{
+  list-style: none;
+  margin-left:5rem;
+}
+
+.social-list{
+  list-style: none;
+  margin-right:7rem;
+}
+.footer-nav li,
+.social-list li{
+  display: inline-block;
+  padding-right:20px;
+}
+
+.social-list a,.footer-nav a{
+  color:#888;
+  text-decoration: none;
+  font-weight: 200;
+}
+
+.row-end {
+  text-align: center;
+  color:#888;
+  font-weight: 300;
+  padding-bottom: 2rem;;
+  padding-top:1rem;
+  
+}
+.ends img{
+  margin-left:5rem;
+  margin-top: 2rem;
+}
+
+footer img{
+margin-left:11rem;
+margin-top: 2rem;
+padding-bottom: -2rem;
+}
+
+.footer-nav li a:hover,
+.social-list li a:hover{
+  color:#00ffa6;
+}
+
+/* ```````````````````````````End``````````````````````````` */
